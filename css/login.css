@@ -125,4 +125,7 @@ body {
 	.bnTest {
 		display: none;
 	}
+	.foot{
+		display: none;
+	}
 }
