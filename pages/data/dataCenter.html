@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,
+			minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../component/layui/css/layui.css" />
+		<link rel="stylesheet" href="../../component/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../component/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../component/Ionicons/css/ionicons.min.css">
+		<link rel="stylesheet" type="text/css" href="../../css/icon/iconfont.css" />
+		<link rel="stylesheet" href="../../component/jvectormap/jquery-jvectormap.css">
+		<link rel="stylesheet" href="../../css/AdminLTE.min.css">
+		<link rel="stylesheet" href="../../css/all-skins.min.css">
+	</head>
+
+	<body class="hold-transition skin-blue sidebar-mini">
+		<div class="wrapper">
+			<header class="main-header">
+				<!-- Logo -->
+				<a href="#" class="logo">
+					<span class="logo-mini"><b>S</b>YB</span>
+					<span class="logo-lg"><img src="../../img/xinlogo.png"/></span>
+				</a>
+				<!-- 头部 -->
+				<nav class="navbar navbar-static-top">
+					<!-- 切换按钮-->
+					<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+						<span class="sr-only">Toggle navigation</span>
+					</a>
+					<!-- 头部导航 -->
+					<div class="navbar-custom-menu">
+						<ul class="nav navbar-nav">
+							<!-- 消息中心-->
+							<li class="dropdown messages-menu">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-envelope-o"></i>
+									<span class="label label-success">4</span>
+								</a>							
+							</li>
+							<!--用户中心-->
+							<li class="dropdown user user-menu">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<img src="../../img/logo.png" class="user-image" alt="User Image">
+									<span class="hidden-xs">用户</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<!--头部结束-->
+			<!--左边-->
+			<aside class="main-sidebar">
+				<section class="sidebar">
+					<ul class="sidebar-menu" data-widget="tree">
+						<li class="active treeview">
+							<a href="#">
+								<i class="iconfont icon-zhexiantu"></i> <span>数据中心</span>
+								<span class="pull-right-container">
+			              			<i class="fa fa-angle-left pull-right"></i>
+			            		</span>
+							</a>							
+						</li>
+						<li class="active treeview">
+							<a href="#">
+								<i class="iconfont icon-xin"></i> <span>服务中心</span>
+								<span class="pull-right-container">
+			              			<i class="fa fa-angle-left pull-right"></i>
+			            		</span>
+							</a>							
+						</li>
+						<li class="active treeview">
+							<a href="#">
+								<i class="iconfont icon-yonghu"></i> <span>用户中心</span>
+								<span class="pull-right-container">
+			              			<i class="fa fa-angle-left pull-right"></i>
+			            		</span>
+							</a>
+						</li>
+					</ul>
+				</section>
+			</aside>
+			<!--左边结束-->
+			<!--右边-->
+			<div class="content-wrapper">
+				<!-- 页面导航 -->
+				<section class="content-header">
+					<ol class="breadcrumb">
+						<li>
+							首页
+						</li>
+						<li>数据中心</li>
+					</ol>
+				</section>
+			
+				<!-- 右边内容 -->
+				<section class="content">
+					<!-- 广告点击展示区... -->
+					<div class="row">
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="info-box">
+								<div class="info_left">
+									<span class="info-box-icon bg-red"><i class="iconfont icon-shujuzhanshi"></i></span>
+									<ul class="inpfo_list1">
+										<li>
+											<h6 class="h4">150</h6></li>
+										<li>广告展示</li>
+									</ul>
+								</div>
+								<ul class="info_right">
+									<li>
+										<p>今日</p>
+										<h6>120</h6>
+									</li>
+									<li class="info_right_conter">
+										<p>30日</p>
+										<h6>120</h6>
+									</li>
+									<li class="info_right_last">
+										<p>90日</p>
+										<h6>120</h6>
+									</li>
+								</ul>
+							</div>
+							<!-- /.info-box -->
+						</div>
+						<!-- /.col -->
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="info-box">
+								<div class="info_left">
+									<span class="info-box-icon bg-gray"><i class="iconfont icon-clickQuery"></i></span>
+									<ul class="inpfo_list1">
+										<li>
+											<h6 class="h4">150</h6></li>
+										<li>广告点击</li>
+									</ul>
+								</div>
+								<ul class="info_right">
+									<li>
+										<p>今日</p>
+										<h6>120</h6>
+									</li>
+									<li class="info_right_conter">
+										<p>30日</p>
+										<h6>120</h6>
+									</li>
+									<li class="info_right_last">
+										<p>90日</p>
+										<h6>120</h6>
+									</li>
+								</ul>
+							</div>
+							<!-- /.info-box -->
+						</div>
+						<!-- /.col -->
+
+						<!-- fix for small devices only -->
+						<div class="clearfix visible-sm-block"></div>
+
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="info-box">
+								<div class="info_left">
+									<span class="info-box-icon bg-black"><i class="iconfont icon-fangke"></i></span>
+									<ul class="inpfo_list1">
+										<li>
+											<h6 class="h4">150</h6></li>
+										<li>访问人数</li>
+									</ul>
+								</div>
+								<ul class="info_right">
+									<li>
+										<p>今日</p>
+										<h6>120</h6>
+									</li>
+									<li class="info_right_conter">
+										<p>30日</p>
+										<h6>120</h6>
+									</li>
+									<li class="info_right_last">
+										<p>90日</p>
+										<h6>120</h6>
+									</li>
+								</ul>
+							</div>
+							<!-- /.info-box -->
+						</div>
+						<!-- /.col -->
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="info-box">
+								<div class="info_left">
+									<span class="info-box-icon bg-blue"><i class="iconfont icon-shangji"></i></span>
+									<ul class="inpfo_list1">
+										<li>
+											<h6 class="h4">150</h6></li>
+										<li>求购商机</li>
+									</ul>
+								</div>
+								<ul class="info_right">
+									<li>
+										<p>今日</p>
+										<h6>120</h6>
+									</li>
+									<li class="info_right_conter">
+										<p>30日</p>
+										<h6>120</h6>
+									</li>
+									<li class="info_right_last">
+										<p>90日</p>
+										<h6>120</h6>
+									</li>
+								</ul>
+							</div>
+							<!-- /.info-box -->
+						</div>
+						<!-- /.col -->
+					</div>
+					<!-- 广告点击结束...-->
+					<!--历史累计表格模块-->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="box">
+								<div class="box-header with-border">
+									<div class="tab_lisi">
+										<div class="btn-group" role="group" aria-label="...">
+											<button class="btnn btn_act">历史累计</button>
+											<button class="btnn ">今天</button>
+											<button class="btnn">30天</button>
+											<button class="btnn">90天</button>
+										</div>
+									</div>
+									<div class="box-tools pull-right">
+										<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                						</button>
+
+										<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+								<!--表格内容区-->
+								<div class="box-body">
+									<div class="row">
+										<div class="col-md-12">
+											<table class="table table-bordered table-hover dataTable">
+												<thead>
+													<tr>
+														<td>渠道名称</td>
+														<td>广告展示 </td>
+														<td>广告点击</td>
+														<td>访客人数</td>
+														<td>访客地区</td>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td class="dataTable_blue">搜索引擎 </td>
+														<td>1268 </td>
+														<td>236</td>
+														<td>58</td>
+														<td>天津</td>
+													</tr>
+													<tr>
+														<td class="dataTable_blue">B2B联盟 </td>
+														<td>1634 </td>
+														<td>301</td>
+														<td>30</td>
+														<td>天津</td>
+													</tr>
+													<tr>
+														<td class="dataTable_blue">微信</td>
+														<td>1234 </td>
+														<td>300</td>
+														<td>205</td>
+														<td>天津</td>
+													</tr>
+													<tr>
+														<td class="dataTable_blue">精准人群</td>
+														<td>532 </td>
+														<td>215</td>
+														<td>32</td>
+														<td>天津</td>
+													</tr>
+													<tr>
+														<td class="dataTable_blue">直接访问</td>
+														<td>35 </td>
+														<td>11</td>
+														<td>5</td>
+														<td>天津</td>
+													</tr>
+													<tr>
+														<td class="dataTable_blue">合计 </td>
+														<td>4703 </td>
+														<td>1063</td>
+														<td>330</td>
+														<td></td>
+													</tr>
+												</tbody>												
+											</table>
+											<div class="fangwen">
+												<button class="fangwenming">访问明细</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<!-- 关键词排名 -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="box box-primary">
+								<div class="box-header with-border">
+									<h3 class="box-title">关键词排名数据</h3>
+									<div class="box-tools pull-right">
+										<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                						</button>
+										<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+								<div class="box-body">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="col-md-4">
+												<div class="row">
+													<div class="col-md-5">
+														<div id="guan" class="clearfix">
+														<ul class="guan_list">
+															<li>376</li>
+															<li>关键词数量</li>
+														</ul>
+														
+													</div>
+													</div>
+													<div class="col-md-7">
+														<div id="guan" class="clearfix">
+														
+														<ul class="guan_list pull-right">
+															<li>376</li>
+															<li>排名前五名关键词数量</li>
+														</ul>
+													</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="row">
+													<div class="col-md-4 guan_libox">
+														<ul class="guanT_list">
+															<li>
+																<h2 class="h4 text-center">搜索引擎：百度</h2>
+																<p class="text-center">前五页搜索引擎数量：141</p>
+															</li>
+														</ul>
+													</div>
+													<div class="col-md-4 guan_libox">
+														<ul class="guanT_list">
+															<li>
+																<h2 class="h4 text-center">搜索引擎：搜狗</h2>
+																<p class="text-center">前五页搜索引擎数量：141</p>
+															</li>
+														</ul>
+													</div>
+													<div class="col-md-4 guan_libox">
+														<ul class="guanT_list">
+															<li>
+																<h2 class="h4 text-center">搜索引擎：360</h2>
+																<p class="text-center">前五页搜索引擎数量：141</p>
+															</li>
+														</ul>
+													</div>
+													<div class="col-md-4 guan_libox">
+														<ul class="guanT_list">
+															<li>
+																<h2 class="h4 text-center">搜索引擎：百度移动</h2>
+																<p class="text-center">前五页搜索引擎数量：141</p>
+															</li>
+														</ul>
+													</div>
+													<div class="col-md-4 guan_libox">
+														<ul class="guanT_list">
+															<li>
+																<h2 class="h4 text-center">搜索引擎：360移动</h2>
+																<p class="text-center">前五页搜索引擎数量：141</p>
+															</li>
+														</ul>
+													</div>
+													<div class="col-md-4 guan_libox">
+														<ul class="guanT_list">
+															<li>
+																<h2 class="h4 text-center">搜索引擎：神马搜索</h2>
+																<p class="text-center">前五页搜索引擎数量：141</p>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- 图表区 -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="box box-primary">
+								<div class="box-header with-border">
+									<h3 class="box-title">搜索引擎关键词比例</h3>
+									<div class="box-tools pull-right">
+										<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                						</button>
+										<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+								<div class="box-body">
+									<div class="row">
+										<div class="col-md-12">
+
+											<div class="col-md-4">
+												<!--左边图表区-->
+												<div class="box-body">
+													<div class="row">
+														<div class="col-md-8">
+															<div class="chart-responsive">
+																<canvas id="pieChart" height="150" style="margin: auto;"></canvas>
+															</div>
+														</div>
+														<div class="col-md-4">
+															<ul class="chart-legend clearfix">
+																<li><i class="fa fa-circle-o text-redd"></i> 百度</li>
+																<li><i class="fa fa-circle-o text-greenn"></i> 搜狗</li>
+																<li><i class="fa fa-circle-o text-yelloww"></i> 360</li>
+																<li><i class="fa fa-circle-o text-aquaa"></i> 百度移动</li>
+																<li><i class="fa fa-circle-o text-bluee"></i> 搜狗移动</li>
+																<li><i class="fa fa-circle-o text-grayy"></i> 神马搜索</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="box-footer no-padding">
+													<ul class="nav nav-pills nav-stacked">
+														<li>
+															<a href="#">百度
+																<span class="pull-right text-redd">12%</span>
+															</a>
+														</li>
+														<li>
+															<a href="#">搜狗 <span class="pull-right text-greenn">4%</span>
+
+															</a>
+														</li>
+														<li>
+															<a href="#">360
+																<span class="pull-right text-yelloww">0%</span>
+															</a>
+														</li>
+														<li>
+															<a href="#">百度移动
+																<span class="pull-right text-aquaa"> 12%</span>
+															</a>
+														</li>
+														<li>
+															<a href="#">搜狗移动 <span class="pull-right text-bluee"> 4%</span>
+
+															</a>
+														</li>
+														<li>
+															<a href="#">神马搜索
+																<span class="pull-right text-grayy">0%</span>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+											<div class="col-md-8">
+
+												<div class="box-body">
+													<div class="row">
+														<div class="col-md-12">
+															<div class="chart-responsive" id="barChartBox">
+																<canvas id="barChart" style="height:300px;width: 100%;"></canvas>
+															</div>
+
+														</div>
+
+														<div class="col-md-12">
+															<ul class="chart-legend clearfix" id="barChartList">
+																<li><i class="fa fa-circle-o text-red"></i> 组词数量</li>
+																<li><i class="fa fa-circle-o text-green"></i> 产品词数量</li>
+																<li><i class="fa fa-circle-o text-yellow"></i> 地区产品词数量</li>
+																<li><i class="fa fa-circle-o text-aqua"></i> 产品行业词数量</li>
+																<li><i class="fa fa-circle-o text-light-blue"></i> 地区产品行业词数量</li>
+
+															</ul>
+														</div>
+
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</section>
+				<!--右边内容区结束-->
+			</div>
+			<!--右边大div结束-->
+			<footer class="main-footer">
+				<strong>Copyright 2016-2017 wayboo.cn 信融科技版权所有 京 ICP备 13035649号-2</strong>
+			</footer>
+
+		</div>
+		<script src="../../component/jquery/dist/jquery.min.js"></script>
+		<script src="../../component/layui/layui.js"></script>
+		<script src="../../component/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="../../component/fastclick/lib/fastclick.js"></script>
+		<script src="../../component/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+		<script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+		<script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+		<script src="../../component/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+		<script src="../../component/Chart.js/Chart.js"></script>
+		<script src="../../component/layui/layui.js"></script>
+		<script src="../../js/adminlte.min.js"></script>
+		<script src="../../js/pages/dashboard2.js"></script>
+	</body>
+	<script type="text/javascript">
+		$(".tab_lisi button").on("click",function(){
+			$(this).addClass("btn_act").siblings().removeClass("btn_act")
+			localStorage.setItem("tabClass",$(this).index())
+		})
+		$(function(){
+			var _this=localStorage.getItem("tabClass")
+			$(".tab_lisi button").eq(_this).addClass("btn_act").siblings().removeClass("btn_act")
+		})
+	</script>
+</html>

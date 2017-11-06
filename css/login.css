@@ -1,0 +1,128 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: url(../img/loginbg.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+	overflow: hidden;
+}
+.input-group-addon{
+	background: none;
+
+}
+
+.head {
+	height: 72px;
+	line-height: 72px;
+	border-bottom: 1px solid #384560;
+	padding-left: 15px;
+}
+
+.foot {
+	height: 72px;
+	line-height: 72px;
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #384560;
+}
+
+#login {
+	color: #fff;
+	margin: auto;
+	margin-top: 80px;
+	background: #fff;
+}
+
+.loginTab {
+	height: 50px;
+	line-height: 50px;	
+	color: #6d6d6d;
+	font-size: 14px;
+	cursor: pointer;
+}
+.loginTabact{
+	background: #f7f7f7;
+}
+
+.bnTest {
+	width: 80%;
+	height: 35px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.bnSlide {
+	width: 80%;
+	height: 35px;
+	margin: auto;
+	position: relative;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.bnSlide .bnSlidePathway {
+	background-color: #e8e8e8;
+	height: 35px;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	text-align: center;
+	color: #6f6f6f;
+	line-height: 35px;
+	background-image: url(../img/loginT.png) ;
+	background-repeat: no-repeat;
+
+	
+}
+.souji{
+	display: none;
+}
+.souji>.bnTest{display: none;}
+.bnSlide .bnSlidePathway .bnSlideColor {
+	background-color: #7ac23c;
+	width: 100%;
+	height: 100%;
+	word-break:keep-all;           /* 不换行 */
+	white-space:nowrap;          /* 不换行 */
+	overflow:hidden;               /* 内容超出宽度时隐藏超出部分的内容 */
+	text-align: center;
+	user-select: none;  
+}
+
+.bnSlide .bnSlideBlock {
+	background-color: #fff;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	cursor: pointer;
+	color: #aeaeae;
+	line-height: 35px;
+	font-size: 12px;
+	text-align: center;
+	border-top: none;
+	border-bottom: none;
+	user-select: none;  
+}
+.login_bottom{
+	width: 80%;
+	margin: auto;
+	color: #00c3ef;
+	padding: 20px 0;
+}
+@media (max-width:768px ) {
+	#login {
+
+		margin: auto;
+		margin-top: 0;
+		
+	}
+	.bnTest {
+		display: none;
+	}
+}
